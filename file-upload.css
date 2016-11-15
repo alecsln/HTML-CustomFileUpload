@@ -1,0 +1,10 @@
+.js .file { width: .1px;height: .1px;opacity: 0;overflow: hidden;position: absolute;z-index: -1;}
+.no-js .file + .file-upload { display: none;}
+.file + .file-upload { margin-top: 10px;max-width: 500px;}
+.file:focus + .file-upload > label.file-upload-control,.file.has-focus + .file-upload > label.file-upload-control { outline: 1px dotted #000;outline: -webkit-focus-ring-color auto 5px;}
+.file + .file-upload > label,#shorten-test {font-size: 1.1em;font-weight: bold;text-overflow: ellipsis;white-space: nowrap;display: inline-block;overflow: hidden}
+.file + .file-upload > label.file-upload-control {font-size: 1.1em;font-weight: bold;text-overflow: ellipsis;white-space: nowrap;cursor: pointer;display: inline-block;overflow: hidden;padding: .625em 1.1em;color: #f1e5e6;background-color: #0067a9;}
+.file + .file-upload > label.file-upload-name { padding-top: .625em;padding-bottom: .625em;max-width: 70%;margin: 0;}
+.file:focus + .file-upload > label.file-upload-control, .file.has-focus + .file-upload > label.file-upload-control, .file + .file-upload > label.file-upload-control:hover { background-color: #00426d;}
+#shorten-test {position:absolute;left:-10000em;width:auto;}
+.file-required { border: 1px solid #D00000; }
